@@ -13,6 +13,8 @@
     <!-- Bootstrap Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body style="background-color: #FAFAFA;">
@@ -60,41 +62,41 @@
     <main>
         <!-- Hero Section -->
         <section class="container d-flex justify-content-around my-5">
-            <div class="w-50">
+            <div class="w-50 lh-lg">
                 <h1 class="fs-1">
                     Want anything to be
                     <br>
-                    easy with LaslesVPN.
+                    easy with <strong>LaslesVPN.</strong>
                 </h1>
                 <p>
                     Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features
                     from us.
                 </p>
-                <button type="button" class="btn btn-danger">Get Started</button>
+                <button type="button" class="btn btn-danger px-5 my-5 rounded-3 fw-bold">Get Started</button>
             </div>
             <div class="w-50">
                 <img class="img-fluid w-100" src="images/banner/banner-1.png" alt="">
             </div>
         </section>
         <!-- subscriber section  -->
-        <section class="container bg-white my-5 p-4 rounded-3">
+        <section class="container bg-white p-4 rounded-3  my-5">
             <div class="row">
-                <div class="col d-lg-flex align-items-center justify-content-center border-end-2">
-                    <i class="fas fa-user"></i>
+                <div class="col d-flex align-items-center justify-content-center border-end-2 right-border">
+                    <i class="fas fa-user my-icon"></i>
                     <div class="categori-info ms-4 d-flex align-items-center justify-content-center flex-column">
                         <h3>90+</h3>
                         <p>Users</p>
                     </div>
                 </div>
-                <div class="col d-lg-flex align-items-center justify-content-center border-end-2">
-                    <i class="fas fa-map-marker-alt"></i>
+                <div class="col d-flex align-items-center justify-content-center border-end-2 right-border">
+                    <i class="fas fa-map-marker-alt my-icon"></i>
                     <div class="categori-info ms-4 d-flex align-items-center justify-content-center flex-column">
                         <h3>90+</h3>
                         <p>Users</p>
                     </div>
                 </div>
-                <div class="col d-lg-flex align-items-center justify-content-center border-end-2">
-                    <i class="fas fa-server"></i>
+                <div class="col d-flex align-items-center justify-content-center border-end-2">
+                    <i class="fas fa-server my-icon"></i>
                     <div class="categori-info ms-4 d-flex align-items-center justify-content-center flex-column">
                         <h3>50+</h3>
                         <p>Servers</p>
@@ -114,7 +116,7 @@
             <div class="w-50">
                 <img class="img-fluid w-100" src="images/banner/banner-2.png" alt="">
             </div>
-            <div class="w-50">
+            <div class="w-50 ">
                 <h1 class="fs-1">
                     We Provide Many Features You Can Use
                 </h1>
@@ -122,13 +124,15 @@
                     You can explore the features that we provide with fun and have their own functions each feature.
                 </p>
 
-                <ul>
-                    <li class="my-3"><i class="fas fa-check-circle me-3"></i> Powerfull online protection.</li>
-                    <li class="my-3"><i class="fas fa-check-circle me-3"></i> Internet without borders.
+                <ul class="decorations">
+                    <li class="my-3 decorations"><i class="fas fa-check-circle me-3 filled"></i> Powerfull online
+                        protection.
                     </li>
-                    <li class="my-3"><i class="fas fa-check-circle me-3"></i> Supercharged VPN.
+                    <li class="my-3"><i class="fas fa-check-circle me-3 filled"></i> Internet without borders.
                     </li>
-                    <li class="my-3"><i class="fas fa-check-circle me-3"></i> No specific time limits.</li>
+                    <li class="my-3"><i class="fas fa-check-circle me-3 filled"></i> Supercharged VPN.
+                    </li>
+                    <li class="my-3"><i class="fas fa-check-circle me-3 filled"></i> No specific time limits.</li>
                 </ul>
 
             </div>
@@ -137,65 +141,75 @@
         <!-- service Section  -->
         <section class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+                <div class="col  py-4 my-5">
                     <div class="card h-100">
-                        <img src="images/banner/banner-3.png" class="card-img-top w-50" alt="...">
+                        <img src="images/banner/banner-3.png" class="mx-auto my-5 card-img-top w-50" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Free Plan</h5>
-                            <ul>
-                                <li class="my-3"><i class="fas fa-check"></i> Unlimited Bandwitch </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Encrypted Connection </li>
-                                <li class="my-3"><i class="fas fa-check"></i> No Traffic Logs </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Works on All Devices </li>
+                            <ul class="decorations">
+                                <li class="my-3"><i class="fas fa-check filled"></i> Unlimited Bandwitch </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Encrypted Connection </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> No Traffic Logs </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Works on All Devices </li>
 
 
                             </ul>
                         </div>
-                        <div class="">
-                            <h2>Free</h2>
-                            <button type="button" class="btn btn-outline-danger rounded-pill">Select</button>
-
+                        <div>
+                            <h2 class="d-flex justify-content-center mt-5">Free</h2>
+                            <div class="d-flex justify-content-center">
+                                <button type="button"
+                                    class="btn px-5 mb-4 btn-outline-danger rounded-pill ">Select</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col  py-4 my-5">
                     <div class="card h-100">
-                        <img src="images/banner/banner-3.png" class="card-img-top w-50" alt="...">
+                        <img src="images/banner/banner-3.png" class="mx-auto my-5  card-img-top w-50" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Standard Plan</h5>
-                            <ul>
-                                <li class="my-3"><i class="fas fa-check"></i> Unlimited Bandwitch </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Encrypted Connection </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Yes Traffic Logs </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Works on All Devices </li>
-                                <li class="my-3"><i class="fas fa-check"></i> Connect Anyware </li>
+                            <ul class="decorations">
+                                <li class="my-3"><i class="fas fa-check filled"></i> Unlimited Bandwitch </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Encrypted Connection </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Yes Traffic Logs </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Works on All Devices </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Connect Anyware </li>
 
                             </ul>
                         </div>
                         <div class="">
-                            <h2>$9/Manth</h2>
-                            <button type="button" class="btn btn-outline-danger rounded-pill">Select</button>
+                            <h2 class="d-flex justify-content-center mt-5">9.99$/Manth</h2>
+                            <div class="d-flex justify-content-center">
+                                <button type="button"
+                                    class="btn px-5 mb-4 btn-outline-danger rounded-pill ">Select</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col py-4 my-5">
                     <div class="card h-100">
-                        <img src="images/banner/banner-3.png" class="card-img-top w-50" alt="...">
+                        <img src="images/banner/banner-3.png" class="mx-auto my-5 card-img-top w-50" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Premium Plan
                             </h5>
-                            <li class="my-3"><i class="fas fa-check"></i> Unlimited Bandwitch </li>
-                            <li class="my-3"><i class="fas fa-check"></i> Encrypted Connection
-                            </li>
-                            <li class="my-3"><i class="fas fa-check"></i> No Traffic Logs </li>
-                            <li class="my-3"><i class="fas fa-check"></i> Works on All Devices </li>
-                            <li class="my-3"><i class="fas fa-check"></i> Connect Anyware </li>
-                            <li class="my-3"><i class="fas fa-check"></i> Get New Features </li>
+                            <ul class="decorations">
+                                <li class="my-3"><i class="fas fa-check filled"></i> Unlimited Bandwitch </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Encrypted Connection
+                                </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> No Traffic Logs </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Works on All Devices </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Connect Anyware </li>
+                                <li class="my-3"><i class="fas fa-check filled"></i> Get New Features </li>
 
+                            </ul>
                         </div>
                         <div class="">
-                            <h3>15$/Manth</h3>
-                            <button type="button" class="btn btn-outline-danger rounded-pill">Select</button>
+                            <h2 class="d-flex justify-content-center mt-5">15$/Manth</h2>
+                            <div class="d-flex justify-content-center">
+                                <button type="button"
+                                    class="btn px-5 mb-4 btn-outline-danger rounded-pill ">Select</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -293,11 +307,11 @@
             </div>
         </section>
     </main>
-
+    <!-- footer section  -->
     <footer>
         <section class="container d-flex justify-content-between py-4 my-5">
             <div>
-                <img src="images/icon.png" alt="">
+                <img class="mb-2" src="images/icon.png" alt="">
                 <p>LaslesVPN is a private virtual network that
                     <br>
                     has unique features and has high security.
@@ -307,28 +321,28 @@
 
 
             <div class="d-flex">
-                <div class="list-group mx-5">
+                <div class="list-group mx-5 ">
                     <h3>Product</h3>
-                    <a href="">Download</a>
-                    <a href="">Pricing</a>
-                    <a href="">Locations</a>
-                    <a href="">Server</a>
-                    <a href="">Countries</a>
-                    <a href="">Blog</a>
+                    <a class="footer-decoration" href="">Download</a>
+                    <a class="footer-decoration" href="">Pricing</a>
+                    <a class="footer-decoration" href="">Locations</a>
+                    <a class="footer-decoration" href="">Server</a>
+                    <a class="footer-decoration" href="">Countries</a>
+                    <a class="footer-decoration" href="">Blog</a>
                 </div>
                 <div class="list-group mx-5">
                     <h3>Engage</h3>
-                    <a href="">LaslesVPN ?</a>
-                    <a href="">FAQ</a>
-                    <a href="">Tutorials</a>
-                    <a href="">About Us</a>
-                    <a href="">Privacy Policy</a>
-                    <a href="">Terms of Service</a>
+                    <a class="footer-decoration" href="">LaslesVPN ?</a>
+                    <a class="footer-decoration" href="">FAQ</a>
+                    <a class="footer-decoration" href="">Tutorials</a>
+                    <a class="footer-decoration" href="">About Us</a>
+                    <a class="footer-decoration" href="">Privacy Policy</a>
+                    <a class="footer-decoration" href="">Terms of Service</a>
                 </div>
                 <div class="list-group mx-5">
                     <h3>Earn Money</h3>
-                    <a href="">Affiliate</a>
-                    <a href="">Become Partner</a>
+                    <a class="footer-decoration" href="">Affiliate</a>
+                    <a class="footer-decoration" href="">Become Partner</a>
                 </div>
             </div>
         </section>
